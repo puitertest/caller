@@ -5,6 +5,5 @@ on:
 jobs:
   auto-merge:
     permissions:
-      pull-requests: write
-      contents: read
+      contents: write
     uses: puitertest/callee/.github/workflows/automerge.yml@main
