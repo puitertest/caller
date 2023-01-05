@@ -6,4 +6,4 @@ jobs:
   auto-merge:
     permissions:
       pull-requests: write
-    uses: puitertest/callee/automerge.yml@main
+    uses: puitertest/callee/.github/workflows/automerge.yml@main
